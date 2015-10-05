@@ -1,0 +1,9 @@
+{
+  "name": "lifx.cron",
+  "version": "0.0.1",
+  "description": "~",
+  "license": "MIT",
+  "dependencies": {
+    "lifx-api": "1.0.1"
+  }
+}
