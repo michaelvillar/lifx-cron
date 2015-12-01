@@ -3,7 +3,7 @@ var client = new lifx(process.env.KEY);
 
 function change() {
   var hue = Math.round(Math.random() * 360);
-  var saturation = Math.round(Math.random() * 30) / 100;
+  var saturation = Math.round(Math.random() * 60) / 100;
   var brightness = "1.0";
   var color = "hue:"+hue+" saturation:"+saturation+" brightness:"+brightness;
 
